@@ -1,0 +1,15 @@
+{
+  "name": "npm-tako",
+  "version": "0.0.1",
+  "description": "npm tako",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "tako"
+  ],
+  "author": "tako nyc",
+  "license": "ISC"
+}

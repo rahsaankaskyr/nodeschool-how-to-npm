@@ -1,0 +1,84 @@
+  Hello, and welcome to the npm adventure workshop!  I am going to be  
+     asking you to do various things with npm so that you can get started  
+     with it easily.  
+       
+     Some helpful commands:  
+       
+     npm help ............ Get help with npm  
+     how-to-npm print .... Re-display the current exercise  
+     how-to-npm verify ... Verify that you have finished an exercise  
+     how-to-npm solution . Show the solution for the current exercise  
+       
+     The first thing we're going to do is make sure that your npm  
+     version is up to date.  
+       
+     Run `how-to-npm verify` once that is done.  
+       
+     (This is the only part of the workshop that requires network access.  
+     If the network is busted, and you want to skip this one, you can run  
+     `how-to-npm verify skip` to skip it.)
+
+
+
+
+
+$ how-to-npm verify
+verifying that npm is installed...
+You have version 3.10.10 installed.  Great!
+Now let's see what the latest version is... wait for it...
+The latest npm is: 5.6.0
+You have version 3.10.10, but the latest is 5.6.0
+Run `npm install npm -g` to upgrade it
+(You can also just skip this if you want)
+
+
+
+ One of the most important things that npm does is install packages.  
+       
+     However, in order to be a good workshop program, we don't want to litter  
+     files all over your computer, so before going any further, let's set up a  
+     development environment.  
+       
+     First, make a new directory and `cd` into it.  
+       
+     Then, run `npm init` to create a package.json file. You will be prompted  
+     to answer a number of questions. You can just press enter to accept the  
+     default for each question.  
+       
+     Run `how-to-npm verify` once you're done.  All the other commands  
+     you run in this tutorial should be done in that folder.
+
+
+
+
+Congratulations!
+    You have a development environment.
+    
+    From here on out, make sure to run the workshop in this dir
+    
+    You might notice that a `.npmrc` file will show up in there.
+    That normally would not be required, but the workshop uses it
+    to mock out the parts that would normally talk to the internet.
+
+
+
+   npm is best when you can be a part of it.  That starts with  
+     creating an account.  
+       
+     Because this is just a tutorial adventure, remember, we're not  
+     *actually* creating an account anywhere.  However, when you run  
+     this in the Real World, it'll create a real account, with a page  
+     on npmjs.com and the ability to publish packages that real live  
+     humans can install and enjoy.  
+       
+     To see who you're logged in as, run `npm whoami`  
+       
+     To create your account, run `npm adduser`  
+       
+     Try it now, and open the door to ever-greater module fun times!  
+     Then run `how-to-npm verify` 
+
+
+
+
+
