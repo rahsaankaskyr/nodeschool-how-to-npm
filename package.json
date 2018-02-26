@@ -1,5 +1,5 @@
 {
-  "name": "npm-tako",
+  "name": "@takonyc/npm-tako",
   "version": "0.0.1",
   "description": "npm tako",
   "main": "index.js",
@@ -11,5 +11,13 @@
     "tako"
   ],
   "author": "tako nyc",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takonyc/nodeschool-how-to-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/takonyc/nodeschool-how-to-npm/issues"
+  },
+  "homepage": "https://github.com/takonyc/nodeschool-how-to-npm#readme"
 }
