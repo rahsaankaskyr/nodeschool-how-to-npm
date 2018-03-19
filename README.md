@@ -1,7 +1,9 @@
 nodeschool.io - how-to-npm - course 
 
 
+`npm i -g how-to-npm`
 
+`how-to-npm`
 
 
 # Support Development
